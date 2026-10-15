@@ -1,0 +1,21 @@
+{
+  "model_list": [
+    {
+      "api_base": "https://api.deepseek.com/v1",
+      "api_key": "sk-REPLACE_ME",
+      "model": "deepseek-chat"
+    }
+  ],
+  "agents": {
+    "defaults": {
+      "max_tool_iterations": 20,
+      "max_history": 60
+    }
+  },
+  "tools": {
+    "auto": false,
+    "exec_confirm": true,
+    "show_tool_calls": true,
+    "allow_paths": []
+  }
+}
